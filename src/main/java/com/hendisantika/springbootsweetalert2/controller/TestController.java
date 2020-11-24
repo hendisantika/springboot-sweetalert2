@@ -24,13 +24,13 @@ public class TestController {
         return "index";
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("{id}")
     @ResponseBody
     public Object test(@PathVariable("id") String id, Model model) {
         return id != null && !id.trim().equals("") && id.equalsIgnoreCase("OK");
     }
 
-    @GetMapping("/toast")
+    @GetMapping("toast")
     public String main() {
         return "toast";
     }
