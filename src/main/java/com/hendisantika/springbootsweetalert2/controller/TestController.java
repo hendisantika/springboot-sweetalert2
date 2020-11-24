@@ -29,4 +29,9 @@ public class TestController {
     public Object test(@PathVariable("id") String id, Model model) {
         return id != null && !id.trim().equals("") && id.equalsIgnoreCase("OK");
     }
+
+    @GetMapping("/toast")
+    public String main() {
+        return "toast";
+    }
 }
