@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <sweetalert2.version>10.10.0</sweetalert2.version>
+        <sweetalert2.version>10.6.1</sweetalert2.version>
         <jquery.version>3.5.1</jquery.version>
     </properties>
 
@@ -34,13 +34,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.webjars.npm</groupId>
             <artifactId>sweetalert2</artifactId>
             <version>${sweetalert2.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
