@@ -21,7 +21,7 @@
         <bootstrap.version>4.5.3</bootstrap.version>
         <webjars-locator.version>0.40</webjars-locator.version>
         <lombok.version>1.18.16</lombok.version>
-        <commons-validator.version>1.7</commons-validator.version>
+        <commons-validator.version>1.9.0</commons-validator.version>
     </properties>
 
     <dependencies>
