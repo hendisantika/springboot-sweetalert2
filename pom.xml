@@ -20,7 +20,7 @@
         <jquery.version>3.7.1</jquery.version>
         <bootstrap.version>5.3.8</bootstrap.version>
         <webjars-locator.version>0.52</webjars-locator.version>
-        <lombok.version>1.18.38</lombok.version>
+        <lombok.version>1.18.40</lombok.version>
         <commons-validator.version>1.10.0</commons-validator.version>
     </properties>
 
